@@ -10,7 +10,7 @@ Check out the Example of the Postman Testing -
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/callicoder/spring-boot-postgresql-jpa-hibernate-rest-api-demo.git
+git clone https://github.com/kanzul28/Rest-API-CRUD-SpringBoot.git
 ```
 
 **2. Configure PostgreSQL**
@@ -23,7 +23,4 @@ Type the following command from the root directory of the project to run it -
 
 ```bash
 mvn spring-boot:run
-```
-
-
 ```
