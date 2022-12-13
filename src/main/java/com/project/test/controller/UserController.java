@@ -44,6 +44,13 @@ public class UserController {
         return new ResponseEntity<User>(saveUser, HttpStatus.OK);
     }
 
+    /**
+     *
+     *
+     * @param user
+     * @param id
+     * @return
+     */
     @PutMapping("/{id}")
     public User updateUser(@RequestBody User user,@PathVariable("id") Long id) {
         return userService.updateUser(user,id);
